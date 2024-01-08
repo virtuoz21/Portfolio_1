@@ -1,0 +1,13 @@
+.brands{
+    background-color: #EBD96B;
+    padding: 60px 0 55px;
+}
+
+.container_brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_brands img{
+    mix-blend-mode: multiply;
+}
