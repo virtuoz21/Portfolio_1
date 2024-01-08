@@ -1,7 +1,6 @@
 import Card from "../Card/Card";
 import youngImg from "./../../img/images/promo-01.jpg";
 import youngImg2 from "./../../img/images/promo-02.jpg";
-import "./favorite.css";
 
 function Favorite() {
   return (
