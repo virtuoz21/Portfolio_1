@@ -1,0 +1,72 @@
+.community{
+    height: 623px;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.community_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.community_title{
+    max-width: 966px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-align: center;
+}
+
+.community_text{
+    max-width: 1010px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color: #FFFCF8;
+    text-align: center;
+}
+
+.community_input{
+    display: flex;
+    align-items: center;
+    width: 574px;
+    height: 87px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.community_form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.community_form input{
+    width: 100%;
+}
+
+.community_btn{
+    width: 161px;
+    height: 67px;
+    background-color: black;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 33px;
+    color: #fff;
+}
+
+::placeholder {
+    font-size: 24px; 
+}
