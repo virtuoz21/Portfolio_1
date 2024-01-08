@@ -4,6 +4,7 @@ import Brands from "./components/Brands/Brands";
 import Favorite from "./components/Favorite/Favorite";
 import Header from "./components/Header/Header";
 import Promo from "./components/Promo/Promo";
+import Vouchers from "./components/Vouchers/Vouchers";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Arrivals />
       <Banner />
       <Favorite />
+      <Vouchers />
 		</div>
   );
 }
