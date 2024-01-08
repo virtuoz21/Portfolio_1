@@ -1,0 +1,70 @@
+.banner{
+    display: flex;
+    background:linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+}
+
+.banner_title{
+   
+}
+
+.banner_container_title{
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.highlight_2{
+    position: relative;
+    display: inline-block;
+}
+
+.highlight_2 span{
+    position: relative;
+}
+
+.highlight_2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    bottom: 0;
+    right: -30px;
+    left:-20px;
+    background-color: white;
+    transform: rotate(-2deg);
+}
+
+.banner_desc{
+    max-width: 680px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.text_shadow{
+    display: inline-block;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner_desc h3{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.banner_btn{
+    padding: 28px 50px;
+    background: black;
+    border-radius: 7px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
