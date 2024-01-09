@@ -1,3 +1,8 @@
+import { motion, useAnimation } from "framer-motion";
+import React, { useEffect } from "react";
+import { Element } from "react-scroll";
+import debounce from "lodash/debounce";
+import { useInView } from "react-intersection-observer";
 import "./banner.css";
 import bannerImg from "./../../img/images/promo-img.jpg";
 
